@@ -210,7 +210,15 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3,
+        0.5,
+        0.8,
+        1.0,
+        1.2,
+        1.5,
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -529,7 +537,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 2.5,
+        "clearance": 1.5,
         "name": "Power_HV ",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
