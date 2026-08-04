@@ -8799,6 +8799,16 @@
 		)
 		(uuid "00f437b0-4c1b-4906-8b1e-41e8fec84d77")
 	)
+	(label "O3"
+		(at 265.43 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10abfd7d-915a-4aaf-8e43-812246d78b4d")
+	)
 	(label "EN"
 		(at 227.33 38.1 0)
 		(effects
@@ -8808,6 +8818,16 @@
 			(justify left bottom)
 		)
 		(uuid "1b42019a-8ec9-4d01-8da0-aaaf994bd2e6")
+	)
+	(label "O4"
+		(at 262.89 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d55c1e2-826f-4897-8d56-fe869d7d56eb")
 	)
 	(label "RX"
 		(at 248.92 63.5 0)
@@ -8830,14 +8850,14 @@
 		(uuid "32bac5c6-f10b-4663-9947-89f2b3c9a117")
 	)
 	(label "O6"
-		(at 270.51 111.76 270)
+		(at 257.81 111.76 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "35b0e290-b98f-4924-846e-045ef76084f7")
+		(uuid "34450d4f-cc70-4821-98ea-c453f64173a4")
 	)
 	(label "O3"
 		(at 223.52 130.81 0)
@@ -8848,6 +8868,16 @@
 			(justify left bottom)
 		)
 		(uuid "456de33d-23d8-47d2-bac6-ad32323f0688")
+	)
+	(label "IN1"
+		(at 248.92 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "488d5168-dc65-47f9-9485-6c5f4540cc91")
 	)
 	(label "TX"
 		(at 248.92 60.96 0)
@@ -8899,16 +8929,6 @@
 		)
 		(uuid "69b7a369-732a-471d-9bb8-affba197e50b")
 	)
-	(label "O4"
-		(at 265.43 111.76 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70d80d68-d50a-4c91-bda5-419a6e97248e")
-	)
 	(label "IN3"
 		(at 262.89 101.6 90)
 		(effects
@@ -8939,6 +8959,26 @@
 		)
 		(uuid "7c8a571e-21f5-4d14-ae7c-7ab373dfe8b3")
 	)
+	(label "IN4"
+		(at 248.92 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83c252a7-6ec7-4e6d-aaa6-457089a9469c")
+	)
+	(label "IN6"
+		(at 248.92 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87b55687-9271-4f97-b193-9935c5337655")
+	)
 	(label "COM"
 		(at 171.45 148.59 0)
 		(effects
@@ -8948,16 +8988,6 @@
 			(justify left bottom)
 		)
 		(uuid "8d17898f-05a1-4728-b1bb-eb27dba4091c")
-	)
-	(label "IN2"
-		(at 248.92 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f80824a-13c5-41d9-bbb3-1226aee445e4")
 	)
 	(label "EN"
 		(at 265.43 35.56 0)
@@ -9009,16 +9039,6 @@
 		)
 		(uuid "a0b0d3ee-9d27-4f04-bd88-4fc5291bbf4f")
 	)
-	(label "IN3"
-		(at 248.92 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a48fff02-4cc2-478d-80cb-ba9e6557fca9")
-	)
 	(label "DHT11"
 		(at 248.92 83.82 0)
 		(effects
@@ -9028,6 +9048,16 @@
 			(justify left bottom)
 		)
 		(uuid "a7c9852e-c7c7-4198-8cea-cccde1594cdd")
+	)
+	(label "IN2"
+		(at 248.92 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7fa230f-daeb-4aab-94ac-15523c2f25a2")
 	)
 	(label "IO0"
 		(at 278.13 33.02 0)
@@ -9050,14 +9080,14 @@
 		(uuid "b1cb2a1d-6fd5-45ec-b0bf-9739cb31649d")
 	)
 	(label "O1"
-		(at 257.81 111.76 270)
+		(at 270.51 111.76 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "b2bb9c7a-8506-43ed-8606-4a7949763fd3")
+		(uuid "b67de891-f4f3-4092-95c6-4e6728491566")
 	)
 	(label "EN"
 		(at 205.74 58.42 0)
@@ -9109,16 +9139,6 @@
 		)
 		(uuid "bf53ee5d-96fe-4cc2-b1aa-b939385ba345")
 	)
-	(label "IN1"
-		(at 248.92 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c044edc2-da1d-4e6e-bc4f-9f2cb5467178")
-	)
 	(label "AC_16A"
 		(at 179.07 163.83 0)
 		(effects
@@ -9129,15 +9149,15 @@
 		)
 		(uuid "cacb7702-62e2-478c-b29a-96ead7155639")
 	)
-	(label "O5"
-		(at 267.97 111.76 270)
+	(label "IN3"
+		(at 248.92 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "d174efd1-7839-473e-a05f-34e55447bb6a")
+		(uuid "d8666bd8-f246-4a15-86fe-2e7e8f33158e")
 	)
 	(label "310v"
 		(at 90.17 52.07 0)
@@ -9158,16 +9178,6 @@
 			(justify left bottom)
 		)
 		(uuid "da3434c7-5bd5-4578-96bb-8e7d9b5afb1f")
-	)
-	(label "IN6"
-		(at 248.92 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de5b41e1-8a25-409e-9496-3f86178bc491")
 	)
 	(label "TX"
 		(at 229.87 38.1 0)
@@ -9199,16 +9209,6 @@
 		)
 		(uuid "e2cccea8-60e1-4af5-946d-92ce5c33fff8")
 	)
-	(label "IN5"
-		(at 248.92 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6f7f248-2278-488b-9b57-fcbc3eaa9d47")
-	)
 	(label "IN1"
 		(at 257.81 101.6 90)
 		(effects
@@ -9229,16 +9229,6 @@
 		)
 		(uuid "e75edb00-103b-44b2-8771-6cbc5bf40b04")
 	)
-	(label "O3"
-		(at 262.89 111.76 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e9097baf-58d4-4098-a6db-873b58bb7820")
-	)
 	(label "O4"
 		(at 240.03 130.81 0)
 		(effects
@@ -9248,16 +9238,6 @@
 			(justify left bottom)
 		)
 		(uuid "ea2858f8-4761-4ab3-97c1-56ed6437facc")
-	)
-	(label "IN4"
-		(at 248.92 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec03bc29-0c6e-4b11-8adf-8d0e03ef089c")
 	)
 	(label "310v"
 		(at 40.64 16.51 0)
@@ -9269,7 +9249,27 @@
 		)
 		(uuid "ec84e963-94df-452e-8f97-0e34f24d0f7e")
 	)
+	(label "IN5"
+		(at 248.92 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0725530-4015-4af3-939c-13d05789ec73")
+	)
 	(label "O2"
+		(at 267.97 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2bcd85f-073a-47b4-8e87-2e79c58621d0")
+	)
+	(label "O5"
 		(at 260.35 111.76 270)
 		(effects
 			(font
@@ -9277,7 +9277,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "eea7ed2f-1d14-4dd6-a1f2-9f8f08848a3b")
+		(uuid "f4a0c3a4-cca5-422a-943d-067eac620951")
 	)
 	(label "FB1"
 		(at 74.93 182.88 0)
@@ -15343,7 +15343,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SOP16_IC"
+		(property "Value" "ULN2003"
 			(at 260.096 116.078 0)
 			(hide yes)
 			(show_name no)
