@@ -6297,6 +6297,12 @@
 		(uuid "709233c2-eb9e-46f7-9da8-798e570b7c2e")
 	)
 	(junction
+		(at 203.2 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7310c3f7-15fe-439b-811a-35a0b8349551")
+	)
+	(junction
 		(at 147.32 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6349,6 +6355,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "980f8f0d-13b6-4953-b8a4-c9f335107242")
+	)
+	(junction
+		(at 204.47 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bc0eece-5c2d-4622-baf7-080bc011dcd1")
 	)
 	(junction
 		(at 243.84 140.97)
@@ -6547,6 +6559,16 @@
 			(type default)
 		)
 		(uuid "05a72053-45ab-444e-beea-1ac62d67f901")
+	)
+	(wire
+		(pts
+			(xy 199.39 58.42) (xy 199.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0879aef2-a191-4419-be21-f3c2246b8d59")
 	)
 	(wire
 		(pts
@@ -7600,6 +7622,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 59.69) (xy 204.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b80a7b-59ea-4120-b470-4fd805401402")
+	)
+	(wire
+		(pts
 			(xy 175.26 52.07) (xy 175.26 59.69)
 		)
 		(stroke
@@ -8100,6 +8132,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 49.53) (xy 199.39 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af111ad8-7890-423c-81bd-4154b1a43c5e")
+	)
+	(wire
+		(pts
 			(xy 118.11 59.69) (xy 109.22 59.69)
 		)
 		(stroke
@@ -8167,6 +8209,16 @@
 			(type default)
 		)
 		(uuid "b46247b8-1167-472a-b476-900fd6499e2e")
+	)
+	(wire
+		(pts
+			(xy 199.39 49.53) (xy 199.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4cb86f4-bda4-4e83-8cee-916e41e8aa76")
 	)
 	(wire
 		(pts
@@ -10617,6 +10669,87 @@
 			(project "mini Inverter"
 				(path "/37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
 					(reference "FR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1241b708-97e9-4d7a-a7ea-97852ec1a240")
+		(property "Reference" "C18"
+			(at 195.326 52.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "104"
+			(at 195.58 56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 200.3552 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f657beea-1a34-4852-bd63-9a4d71382294")
+		)
+		(pin "1"
+			(uuid "2417e739-7a24-4e48-bb85-0653bbb8e642")
+		)
+		(instances
+			(project "mini Inverter"
+				(path "/37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
+					(reference "C18")
 					(unit 1)
 				)
 			)
