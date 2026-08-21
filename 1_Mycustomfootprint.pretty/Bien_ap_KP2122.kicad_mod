@@ -1,7 +1,7 @@
 (footprint "Bien_ap_KP2122"
-	(version 20260206)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "10.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -54,7 +54,6 @@
 		)
 	)
 	(attr smd)
-	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -10.18 20.69)
 		(end -10.18 3.39)

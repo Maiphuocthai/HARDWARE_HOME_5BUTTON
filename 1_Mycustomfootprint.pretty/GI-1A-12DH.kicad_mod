@@ -1,7 +1,7 @@
 (footprint "GI-1A-12DH"
-	(version 20260206)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "10.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -54,7 +54,6 @@
 		)
 	)
 	(attr smd)
-	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.73 -4.36)
 		(end -3.73 -5.63)

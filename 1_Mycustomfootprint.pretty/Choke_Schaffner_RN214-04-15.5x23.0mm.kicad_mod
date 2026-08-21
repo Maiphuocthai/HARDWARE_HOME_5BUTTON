@@ -1,7 +1,7 @@
 (footprint "Choke_Schaffner_RN214-04-15.5x23.0mm"
-	(version 20260206)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "10.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Current-compensated Chokes, Schaffner, RN214-04, 15.5mmx23.0mm https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/")
 	(tags "chokes schaffner tht")
@@ -62,7 +62,6 @@
 		)
 	)
 	(attr through_hole)
-	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 1.25 56)
 		(end 1.25 59)
@@ -794,7 +793,8 @@
 		(at 87.494159 64.75)
 		(layer "F.SilkS")
 		(scale 0.165575)
-		(data "/9j/4AAQSkZJRgABAQEASABIAAD/4QD6RXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUA"
+		(data
+			"/9j/4AAQSkZJRgABAQEASABIAAD/4QD6RXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUA"
 			"AAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAA"
 			"AEgAAAABAAmQAAAHAAAABDAyMjGQAwACAAAAFAAAAMyRAQAHAAAABAECAwCShgAHAAAAEgAAAOCg"
 			"AAAHAAAABDAxMDCgAQADAAAAAf//AACgAgAEAAAAAQAABQSgAwAEAAAAAQAACQCkBgADAAAAAQAA"
@@ -14870,9 +14870,7 @@
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Inductor_THT.3dshapes/Choke_Schaffner_RN214-04-15.5x23.0mm.step"
-		(offset
-			(xyz 0 0 0)
-		)
+		(offset (xyz 0 0 0))
 		(scale
 			(xyz 1 1 1)
 		)
