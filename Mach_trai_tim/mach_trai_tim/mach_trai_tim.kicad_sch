@@ -2432,6 +2432,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 66.04 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05fff78d-90d3-4e8f-91d6-cf36e8491e61")
+		(property "Reference" "C6"
+			(at 68.58 95.3769 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 68.58 97.9169 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1_Mycustomfootprint:CP_Radial_D5.0mm_P2.50mm"
+			(at 66.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 66.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eae35cd4-8ee1-4f71-ad94-3a2c5401252d")
+		)
+		(pin "2"
+			(uuid "002220c4-bf4a-4887-a755-53012b60a602")
+		)
+		(instances
+			(project "mach_trai_tim"
+				(path "/aef58bcd-3430-4a7f-bf99-25b86262a770"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 104.14 87.63 90)
 		(unit 1)
@@ -2776,7 +2858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 41.91 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2825,8 +2907,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 105.41 58.42 0)
+		(lib_id "Device:C_Small_US")
+		(at 115.57 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2835,9 +2917,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "666ba10f-c303-49e2-b94f-5c954837c060")
-		(property "Reference" "C3"
-			(at 107.95 57.1562 0)
+		(uuid "385c3f74-7729-43e0-82e0-1495e08021ac")
+		(property "Reference" "C7"
+			(at 118.11 47.1169 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2847,8 +2929,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 107.95 59.6962 0)
+		(property "Value" "1uF"
+			(at 118.11 49.6569 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2858,8 +2940,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 105.41 58.42 0)
+		(property "Footprint" "1_Mycustomfootprint:CP_Radial_D5.0mm_P2.50mm"
+			(at 115.57 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2870,7 +2952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 58.42 0)
+			(at 115.57 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2880,8 +2962,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 105.41 58.42 0)
+		(property "Description" "capacitor, small US symbol"
+			(at 115.57 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2892,15 +2974,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "511eeda2-b1d8-4e07-991d-719d1289d5e9")
+			(uuid "baaa3ed4-6e5d-4152-aaa3-480020062103")
 		)
 		(pin "2"
-			(uuid "2b658ebc-66eb-4861-b464-4651d0b760f0")
+			(uuid "f72eb7b9-7eac-4f7a-9cef-e96685ce447e")
 		)
 		(instances
 			(project "mach_trai_tim"
 				(path "/aef58bcd-3430-4a7f-bf99-25b86262a770"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3181,6 +3263,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 115.57 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "936f4485-3408-4728-a834-deb31f406452")
+		(property "Reference" "C8"
+			(at 118.11 57.2769 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 118.11 59.8169 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1_Mycustomfootprint:CP_Radial_D5.0mm_P2.50mm"
+			(at 115.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, small US symbol"
+			(at 115.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "987f90dc-1134-4365-a852-4c866109372b")
+		)
+		(pin "2"
+			(uuid "f8657de3-b50f-4efc-89d8-53d7740a1652")
+		)
+		(instances
+			(project "mach_trai_tim"
+				(path "/aef58bcd-3430-4a7f-bf99-25b86262a770"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 110.49 44.45 0)
 		(unit 1)
@@ -3331,88 +3495,6 @@
 			(project "mach_trai_tim"
 				(path "/aef58bcd-3430-4a7f-bf99-25b86262a770"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 66.04 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b92bf7cd-a808-4b59-8f44-bf26ac7d4534")
-		(property "Reference" "C6"
-			(at 68.58 95.3769 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 68.58 97.9169 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "capacitor, small US symbol"
-			(at 66.04 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d1e5f2f-a56f-486b-8514-4df7ae0e48b9")
-		)
-		(pin "2"
-			(uuid "50f11bbf-9fd0-49a7-aef5-acd8520bdeb6")
-		)
-		(instances
-			(project "mach_trai_tim"
-				(path "/aef58bcd-3430-4a7f-bf99-25b86262a770"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3627,7 +3709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_Mycustomfootprint:CP_Radial_D5.0mm_P2.50mm"
 			(at 52.07 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3800,6 +3882,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 105.41 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8937feb-13d2-479f-8884-ba0b96aae0e9")
+		(property "Reference" "C2"
+			(at 107.95 57.1562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 107.95 59.6962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1_Mycustomfootprint:Cap_104_THT"
+			(at 105.41 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 105.41 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d963258e-428c-464e-9c57-6c9580276602")
+		)
+		(pin "2"
+			(uuid "ee8e5de7-473a-41b5-80e5-fed42fc1a77b")
+		)
+		(instances
+			(project "mach_trai_tim"
+				(path "/aef58bcd-3430-4a7f-bf99-25b86262a770"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 133.35 74.93 0)
 		(unit 1)
@@ -3872,88 +4036,6 @@
 			(project "mach_trai_tim"
 				(path "/aef58bcd-3430-4a7f-bf99-25b86262a770"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 115.57 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f414ccd4-7002-4cb9-9de5-8b27081607ac")
-		(property "Reference" "C2"
-			(at 118.11 47.1169 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 118.11 49.6569 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "capacitor, small US symbol"
-			(at 115.57 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "847cbb8a-3dea-45ce-9900-873d599c196b")
-		)
-		(pin "2"
-			(uuid "0c705ed5-624f-4b88-9562-ce5794814e81")
-		)
-		(instances
-			(project "mach_trai_tim"
-				(path "/aef58bcd-3430-4a7f-bf99-25b86262a770"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4071,7 +4153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_Mycustomfootprint:Cap_104_THT"
 			(at 105.41 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4114,88 +4196,6 @@
 			(project "mach_trai_tim"
 				(path "/aef58bcd-3430-4a7f-bf99-25b86262a770"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 115.57 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa9e3c99-1ff5-4c49-aa88-089da95231f8")
-		(property "Reference" "C4"
-			(at 118.11 57.2769 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 118.11 59.8169 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "capacitor, small US symbol"
-			(at 115.57 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b554fdf9-344c-4a2c-b5ab-7724a2855373")
-		)
-		(pin "2"
-			(uuid "abcadcbe-93e1-4c02-b7e6-0728a899c1a1")
-		)
-		(instances
-			(project "mach_trai_tim"
-				(path "/aef58bcd-3430-4a7f-bf99-25b86262a770"
-					(reference "C4")
 					(unit 1)
 				)
 			)

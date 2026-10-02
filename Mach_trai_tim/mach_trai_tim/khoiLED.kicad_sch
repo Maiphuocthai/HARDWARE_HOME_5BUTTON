@@ -1096,7 +1096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "1_Mycustomfootprint:LED_D5.0mm"
 			(at 140.97 127 0)
 			(hide yes)
 			(show_name no)
@@ -1423,7 +1423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "1_Mycustomfootprint:LED_D5.0mm"
 			(at 140.97 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1592,7 +1592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "1_Mycustomfootprint:LED_D5.0mm"
 			(at 140.97 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1682,7 +1682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "1_Mycustomfootprint:LED_D5.0mm"
 			(at 140.97 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2087,7 +2087,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "1_Mycustomfootprint:LED_D5.0mm"
 			(at 140.97 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2256,7 +2256,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "1_Mycustomfootprint:LED_D5.0mm"
 			(at 140.97 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2346,7 +2346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "1_Mycustomfootprint:LED_D5.0mm"
 			(at 140.97 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2436,7 +2436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "1_Mycustomfootprint:LED_D5.0mm"
 			(at 140.97 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2684,7 +2684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "1_Mycustomfootprint:LED_D5.0mm"
 			(at 140.97 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2774,7 +2774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "1_Mycustomfootprint:LED_D5.0mm"
 			(at 140.97 120.65 0)
 			(hide yes)
 			(show_name no)
