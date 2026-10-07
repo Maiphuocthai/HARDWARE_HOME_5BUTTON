@@ -6226,16 +6226,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 81.28) (xy 209.55 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cbfe76b-0f60-450c-bd02-b40e910ad3c0")
-	)
-	(wire
-		(pts
 			(xy 248.92 102.87) (xy 248.92 101.6)
 		)
 		(stroke
@@ -6453,16 +6443,6 @@
 			(type default)
 		)
 		(uuid "24a760fe-5f22-412e-9af1-f690d18e1b98")
-	)
-	(wire
-		(pts
-			(xy 199.39 71.12) (xy 209.55 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25ee1667-fdfc-4889-96ab-5a79ed9dbb2c")
 	)
 	(wire
 		(pts
@@ -6763,16 +6743,6 @@
 			(type default)
 		)
 		(uuid "4888da66-e32d-47f1-8259-d42483a497c5")
-	)
-	(wire
-		(pts
-			(xy 198.12 83.82) (xy 209.55 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aac00fe-ce7c-44e3-8d6c-692e3c8c01ef")
 	)
 	(wire
 		(pts
@@ -7646,16 +7616,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 93.98) (xy 220.98 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab9bb2f6-6194-444b-84df-4d57f7fe233c")
-	)
-	(wire
-		(pts
 			(xy 165.1 55.88) (xy 165.1 59.69)
 		)
 		(stroke
@@ -7693,16 +7653,6 @@
 			(type default)
 		)
 		(uuid "acd6dda3-0488-43a8-9921-8bf303de4cf0")
-	)
-	(wire
-		(pts
-			(xy 205.74 73.66) (xy 209.55 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeda612c-c020-4be1-b283-f89158b6b7e7")
 	)
 	(wire
 		(pts
@@ -8236,16 +8186,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 86.36) (xy 209.55 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee1ed058-5ccf-4092-93d8-b5b529d1e5a0")
-	)
-	(wire
-		(pts
 			(xy 234.95 33.02) (xy 234.95 38.1)
 		)
 		(stroke
@@ -8394,16 +8334,6 @@
 		)
 		(uuid "05c7d82f-d20e-44f1-9c08-1d2776ec0d76")
 	)
-	(label "K5"
-		(at 205.74 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d9fbf14-ee48-4262-8261-ad686d459860")
-	)
 	(label "O3"
 		(at 265.43 111.76 270)
 		(effects
@@ -8423,16 +8353,6 @@
 			(justify left bottom)
 		)
 		(uuid "1b42019a-8ec9-4d01-8da0-aaaf994bd2e6")
-	)
-	(label "K4"
-		(at 205.74 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1bb1a430-e018-4763-b148-c219441968bf")
 	)
 	(label "O4"
 		(at 262.89 111.76 270)
@@ -8584,16 +8504,6 @@
 		)
 		(uuid "51d61672-fdec-46fe-9679-ed604805402a")
 	)
-	(label "K3"
-		(at 205.74 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5cebb737-3253-4baa-a126-eab44d5b6863")
-	)
 	(label "O2"
 		(at 209.55 130.81 180)
 		(effects
@@ -8603,16 +8513,6 @@
 			(justify right bottom)
 		)
 		(uuid "69b7a369-732a-471d-9bb8-affba197e50b")
-	)
-	(label "K2"
-		(at 205.74 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6bbb1084-9678-4d18-815c-c97acd5f79da")
 	)
 	(label "IN3"
 		(at 262.89 101.6 90)
@@ -8724,16 +8624,6 @@
 		)
 		(uuid "9d8584f0-1f25-4ddc-ba99-bd633abbe6c0")
 	)
-	(label "K6"
-		(at 205.74 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a158ab14-ff9d-4fc1-8367-754e3cad9a12")
-	)
 	(label "DHT11"
 		(at 248.92 83.82 0)
 		(effects
@@ -8843,16 +8733,6 @@
 			(justify left bottom)
 		)
 		(uuid "bfff40ff-8b82-4848-86b8-d64184c6fbdd")
-	)
-	(label "K1"
-		(at 220.98 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca358d26-28a4-4907-95e8-06f5a6b84f64")
 	)
 	(label "IN3"
 		(at 248.92 73.66 0)
@@ -9177,85 +9057,6 @@
 			(project "mini Inverter"
 				(path "/37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
 					(reference "AC_N6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 196.85 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01ad0654-4587-4c9f-97aa-5f4041e612d9")
-		(property "Reference" "K6"
-			(at 195.58 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 193.04 69.8501 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1_Mycustomfootprint:Touch_SF20"
-			(at 196.85 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 196.85 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85d24b4c-36eb-4bbf-8c8e-fd63f40a3eb3")
-		)
-		(instances
-			(project "mini Inverter"
-				(path "/37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
-					(reference "K6")
 					(unit 1)
 				)
 			)
@@ -10513,85 +10314,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 203.2 73.66 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b0474ad-d522-4cc0-8ca7-bd40f6ef30b5")
-		(property "Reference" "K5"
-			(at 201.93 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 199.39 72.3901 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1_Mycustomfootprint:Touch_SF20"
-			(at 203.2 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 203.2 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec7a491d-22de-4395-adf3-40583d8cf603")
-		)
-		(instances
-			(project "mini Inverter"
-				(path "/37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
-					(reference "K5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Variable")
 		(at 123.19 180.34 180)
 		(unit 1)
@@ -10846,85 +10568,6 @@
 			(project "mini Inverter"
 				(path "/37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
 					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 199.39 86.36 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37df79cb-9edf-41f1-a14b-8d4ebdeba5da")
-		(property "Reference" "K2"
-			(at 198.12 82.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 195.58 85.0901 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1_Mycustomfootprint:Touch_SF20"
-			(at 199.39 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 199.39 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fed708eb-40b7-47ce-9a39-ae9ad06fbc69")
-		)
-		(instances
-			(project "mini Inverter"
-				(path "/37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
-					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -11188,86 +10831,6 @@
 			(project "mini Inverter"
 				(path "/37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 220.98 105.41 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48a2ab35-4ffb-4ec4-a0c1-c4d207436a40")
-		(property "Reference" "K1"
-			(at 223.52 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 219.7101 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1_Mycustomfootprint:Touch_SF20"
-			(at 220.98 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 220.98 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c45c106-093b-45fe-8322-b1c9bc03589b")
-		)
-		(instances
-			(project "mini Inverter"
-				(path "/37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
-					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -11852,85 +11415,6 @@
 			(project "mini Inverter"
 				(path "/37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 195.58 83.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b618028-7eef-48d4-a5b8-007ec2f2b69c")
-		(property "Reference" "K3"
-			(at 194.31 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 191.77 82.5501 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1_Mycustomfootprint:Touch_SF20"
-			(at 195.58 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 195.58 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2329c846-b98b-4c0c-899d-59a211678099")
-		)
-		(instances
-			(project "mini Inverter"
-				(path "/37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
-					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -15965,85 +15449,6 @@
 			(project "mini Inverter"
 				(path "/37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 190.5 81.28 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7e882bb-a88a-452d-8c68-023315de2df5")
-		(property "Reference" "K4"
-			(at 189.23 77.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 186.69 80.0101 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1_Mycustomfootprint:Touch_SF20"
-			(at 190.5 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 190.5 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e689ce55-9617-42ba-9b43-20e59f861fdc")
-		)
-		(instances
-			(project "mini Inverter"
-				(path "/37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
-					(reference "K4")
 					(unit 1)
 				)
 			)
