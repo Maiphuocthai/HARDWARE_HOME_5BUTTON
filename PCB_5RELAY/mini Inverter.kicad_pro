@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.2,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -120,7 +120,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -132,7 +132,7 @@
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
@@ -493,7 +493,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -541,22 +541,32 @@
         "wire_width": 6
       },
       {
-        "clearance": 2.0,
+        "clearance": 2.5,
         "name": "AC_220V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 3.0,
+        "track_width": 2.5,
+        "tuning_profile": "",
+        "wire_width": 8
+      },
+      {
+        "clearance": 0.2,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 0, 255)",
+        "track_width": 0.2,
         "tuning_profile": "",
         "wire_width": 8
       },
       {
         "clearance": 0.35,
-        "name": "PWR_12V",
+        "name": "PWR_12V_5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(0, 255, 0)",
-        "track_width": 0.8,
+        "track_width": 0.5,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -564,7 +574,7 @@
       },
       {
         "clearance": 0.25,
-        "name": "PWR_5V_3V3",
+        "name": "PWR_3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgb(255, 255, 0)",
@@ -575,38 +585,14 @@
         "wire_width": 8
       },
       {
-        "clearance": 0.25,
-        "name": "RELAY_DRIVE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgb(0, 255, 255)",
-        "track_width": 0.35,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.3,
-        "name": "SENSOR_AUDIO",
+        "clearance": 0.2,
+        "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
-        "schematic_color": "rgb(0, 0, 255)",
-        "track_width": 0.3,
+        "schematic_color": "rgb(0, 255, 255)",
+        "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.4,
-        "name": "TOUCH_SENSE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgb(255, 0, 255)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 8
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -616,72 +602,52 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": ""
-      },
-      {
-        "netclass": "AC_220V",
-        "pattern": "/ACN"
-      },
-      {
-        "netclass": "AC_220V",
-        "pattern": "/AC_RL(1|2|3|4|5|6)"
-      },
-      {
-        "netclass": "AC_220V",
-        "pattern": "/COM"
-      },
-      {
         "netclass": "AC_220V",
         "pattern": "/ACL"
       },
       {
-        "netclass": "AC_220V",
-        "pattern": "/AC_FUSE"
-      },
-      {
-        "netclass": "AC_220V",
-        "pattern": "/AC_L1"
-      },
-      {
-        "netclass": "AC_220V",
-        "pattern": "/AC_LF1L"
-      },
-      {
-        "netclass": "AC_220V",
-        "pattern": "/AC_LF1N"
-      },
-      {
-        "netclass": "PWR_12V",
+        "netclass": "PWR_12V_5V",
         "pattern": "+12V"
       },
       {
-        "netclass": "PWR_12V",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "PWR_12V",
-        "pattern": "/+12VR"
-      },
-      {
-        "netclass": "PWR_5V_3V3",
+        "netclass": "PWR_3V3",
         "pattern": "+5V"
       },
       {
-        "netclass": "PWR_5V_3V3",
+        "netclass": "PWR_3V3",
         "pattern": "+3V3"
       },
       {
-        "netclass": "TOUCH_SENSE",
-        "pattern": "/K(1|2|3|4|5|6)"
+        "netclass": "PWR_12V_5V",
+        "pattern": "+5V"
       },
       {
-        "netclass": "SENSOR_AUDIO",
-        "pattern": "/BUZZ|/DHT11"
+        "netclass": "GND",
+        "pattern": "GND"
       },
       {
-        "netclass": "RELAY_DRIVE",
+        "netclass": "AC_220V",
+        "pattern": "/AC_RL1|/AC_RL2|/AC_RL3|/AC_RL4|/AC_RL5|/AC_RL6|/COM"
+      },
+      {
+        "netclass": "PWR_12V_5V",
         "pattern": "/O(1|2|3|4|5|6)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/BUZZ|/DHT11|/IN1|/IN2|/IN3|/IN4|/IN5|/IN6|/IO0|/RX|/TX"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/EN"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "Net*"
+      },
+      {
+        "netclass": "AC_220V",
+        "pattern": "/ACN"
       }
     ]
   },
@@ -837,7 +803,7 @@
         "uuid": "37d9edb3-3b82-4f0a-b5f8-8b86d1ed1264"
       }
     ],
-    "used_designators": "R1-6,R8,R10,R19-22,R34,R44,C1-5,C15,C18,C21,U1-5,D1-6,D17,T2-6,#PWR1-31,SW1,H1,AC_L1-11,AC_N1,AC_N6,RLY1-6,RJ1,AC1,J1-3,BZ1,EC1-3,EC5,K7,IC1",
+    "used_designators": "R1-6,R8,R10,R19-22,R34,R44,C1-6,C15,C18,C21,U1-5,D1-6,D17,T2-6,#PWR1-31,SW1-6,H1,AC_L1-11,AC_N1,AC_N6,RLY1-6,RJ1,AC1-2,J1-3,BZ1,EC1-3,EC5,K7,IC1,AC_OUT1-6,ACIN1",
     "variants": []
   },
   "sheets": [

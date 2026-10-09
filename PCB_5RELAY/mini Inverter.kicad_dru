@@ -1,16 +1,9 @@
 (version 1)
 
-# 1. Bat buoc cach ly an toan toi thieu 3.5mm giua vung AC 220V va toan bo vung DC
-(rule "Clearance_AC_to_DC_Isolation"
-   (constraint clearance (min 3.5mm))
-   (condition "A.NetClass == 'AC_220V' && B.NetClass != 'AC_220V'"))
+# Quy tắc 1: Khoảng cách giữa ACL hoặc ACN với các net khác là 1.0mm
 
-# 2. Khoang cach an toan giua cac pha/duong AC voi nhau (khoang cach chan Relay)
-(rule "Clearance_Between_AC_Lines"
-   (constraint clearance (min 1.0mm))
-   (condition "A.NetClass == 'AC_220V' && B.NetClass == 'AC_220V'"))
+(rule "ACL_To_ACN_Clearance"
+    (constraint clearance (min 1.0mm))
+    (condition "(A.NetName == '/ACN' && B.NetName == '/AC_RL*') || (A.NetName == '/AC_RL*' && B.NetName == '/ACN')")
+)
 
-# 3. Cach ly duong nut nhan cam ung (Touch) voi phu dong xung quanh
-(rule "Clearance_Touch_Sensors"
-   (constraint clearance (min 0.5mm))
-   (condition "A.NetClass == 'TOUCH_SENSE'"))
