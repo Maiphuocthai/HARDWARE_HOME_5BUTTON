@@ -1,0 +1,78 @@
+(footprint "Lỗ bắt ốc"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dee70b13-1e8f-4b1b-9330-18e8f8840c75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Lỗ bắt ốc"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "85d261b7-2025-4d98-b247-e82248abb182")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "297813c0-5639-4997-861f-44204ad149f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc1869da-86ea-42c9-91fd-5793f9b4c7e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d987eca8-13e7-4328-b22b-5d58d2162b60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 270)
+		(size 2.54 2.54)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5063a372-756f-459a-9e88-d3691dd000fb")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,56 @@
+### Footprint positions - created on 2026-10-15T23:12:27 ###
+### Printed by KiCad version 10.0.5
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                              Package                                                         PosX       PosY       Rot  Side
+                                           7b5fcdc5-8954-4c17-bed2-f8229795bd91                        192.1000   -76.9000    0.0000  top
+                                           7b5fcdc5-8954-4c17-bed2-f8229795bd91                        193.9898  -135.3373    0.0000  top
+                                           7b5fcdc5-8954-4c17-bed2-f8229795bd91                        101.2500   -75.7000    0.0000  top
+12V_IN1   Conn_01x02_Pin                   TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal   193.9175  -130.0250   90.0000  top
+ACIN1     Screw_Terminal_01x02             TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal    179.6367   -77.9000  180.0000  top
+AC_OUT1   Screw_Terminal_01x02             TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal    112.6967   -77.9000  180.0000  top
+AC_OUT2   Screw_Terminal_01x02             TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal    123.8533   -77.9000  180.0000  top
+AC_OUT3   Screw_Terminal_01x02             TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal    135.0100   -77.9000  180.0000  top
+AC_OUT4   Screw_Terminal_01x02             TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal    146.1667   -77.9000  180.0000  top
+AC_OUT5   Screw_Terminal_01x02             TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal    157.3233   -77.9000  180.0000  top
+AC_OUT6   Screw_Terminal_01x02             TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal    168.4800   -77.9000  180.0000  top
+BZ1       Buzzer                           Indicator_PUI_AI-1440-TWT-24V-2-R                           147.3000  -117.0000  180.0000  top
+C1        0805                             R_0805_2012Metric                                           131.7500  -113.8000  -90.0000  top
+C2        104                              R_0805_2012Metric                                           158.1400  -113.5525  -90.0000  top
+C3        104                              R_0805_2012Metric                                           157.9100  -119.9325  -90.0000  top
+C4        104                              R_0805_2012Metric                                           102.1000  -130.0800    0.0000  top
+C5        104                              R_0805_2012Metric                                            98.4500  -130.0800  180.0000  top
+CODE1     Conn_01x05_Pin                   PinHeader_1x05_P2.54mm_Vertical                             108.4800  -107.2600  -90.0000  top
+D1        1N4148W                          D_SOD-123                                                   106.0000  -104.3400  180.0000  top
+D2        1N4148W                          D_SOD-123                                                   117.8892  -104.3400  180.0000  top
+D3        1N4148W                          D_SOD-123                                                   129.7884  -104.3400  180.0000  top
+D4        LED                              LED_0805_2012Metric                                         122.0000  -127.4825  180.0000  top
+D5        1N4148W                          D_SOD-123                                                   141.6876  -104.3400  180.0000  top
+D6        1N4148W                          D_SOD-123                                                   153.5868  -104.3400  180.0000  top
+D7        1N4148W                          D_SOD-123                                                   165.4860  -104.3400  180.0000  top
+DHT1      Conn_01x03_Pin                   DHT11                                                       104.9000  -134.7150  180.0000  top
+EC1       220µF/25V                        CP_Radial_D5.0mm_P2.50mm                                    154.1000  -110.0000   90.0000  top
+EC2       47µF                             CP_Radial_D5.0mm_P2.50mm                                    154.1100  -117.0825   90.0000  top
+EC3       10µF                             CP_Radial_D5.0mm_P2.50mm                                    154.1100  -123.9925   90.0000  top
+IC1       ULN2003                          JEITA_SOIC-16_3.9x9.9mm_P1.27mm                             125.5600  -113.8000   90.0000  top
+R1        10K                              R_0805_2012Metric                                           118.3000  -127.4825    0.0000  top
+R2        200                              R_0805_2012Metric                                           134.5500  -117.0000  180.0000  top
+R3        10K                              R_0805_2012Metric                                           100.2750  -132.0300    0.0000  top
+R4        10K                              R_0805_2012Metric                                           118.3000  -110.3825  180.0000  top
+RLY1      ~                                GI-1A-12DH                                                  106.2600   -93.9800  180.0000  top
+RLY2      ~                                GI-1A-12DH                                                  118.1420   -93.9800  180.0000  top
+RLY3      ~                                GI-1A-12DH                                                  130.0240   -93.9800  180.0000  top
+RLY4      ~                                GI-1A-12DH                                                  141.9060   -93.9800  180.0000  top
+RLY5      ~                                GI-1A-12DH                                                  153.7880   -93.9800  180.0000  top
+RLY6      ~                                GI-1A-12DH                                                  165.6700   -93.9800  180.0000  top
+SW1       Nút_Nhấn_6x6mm_Cao_5.5mm_2_Chân  Nút_Nhấn_6x6mm_Cao_5.5mm                                    126.9100  -135.2400  -90.0000  top
+SW2       Nút_Nhấn_6x6mm_Cao_5.5mm_2_Chân  Nút_Nhấn_6x6mm_Cao_5.5mm                                    135.8950  -135.2400  -90.0000  top
+SW3       Nút_Nhấn_6x6mm_Cao_5.5mm_2_Chân  Nút_Nhấn_6x6mm_Cao_5.5mm                                    144.8800  -135.2400  -90.0000  top
+SW4       Nút_Nhấn_6x6mm_Cao_5.5mm_2_Chân  Nút_Nhấn_6x6mm_Cao_5.5mm                                    153.8650  -135.2400  -90.0000  top
+SW5       Nút_Nhấn_6x6mm_Cao_5.5mm_2_Chân  Nút_Nhấn_6x6mm_Cao_5.5mm                                    162.8500  -135.2400  -90.0000  top
+SW6       Nút_Nhấn_6x6mm_Cao_5.5mm_2_Chân  Nút_Nhấn_6x6mm_Cao_5.5mm                                    171.8350  -135.2400  -90.0000  top
+U1        HLK-10M-12_(10W)                 Converter_ACDC_Hi-Link_HLK-5Mxx                             187.6500   -87.8000  -90.0000  top
+U2        L7805                            TO-252-2                                                    165.2500  -113.5850  -90.0000  top
+U3        AMS1117                          SOT-223-3_TabPin2                                           166.0200  -121.0000  -90.0000  top
+U4        ESP32-WROOM-32E                  ESP32-WROOM-32E                                             105.4050  -119.9925   90.0000  top
+## End

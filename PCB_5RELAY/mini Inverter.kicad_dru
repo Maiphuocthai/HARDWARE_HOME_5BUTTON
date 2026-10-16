@@ -1,9 +1,48 @@
 (version 1)
 
-# Quy tắc 1: Khoảng cách giữa ACL hoặc ACN với các net khác là 1.0mm
 
-(rule "ACL_To_ACN_Clearance"
-    (constraint clearance (min 1.0mm))
-    (condition "(A.NetName == '/ACN' && B.NetName == '/AC_RL*') || (A.NetName == '/AC_RL*' && B.NetName == '/ACN')")
+
+#(rule "Edge_Clearance_Exception_AC"
+#    (condition "A.hasNetclass('AC_OUT')")
+#    (constraint track_width (opt 2.0mm))
+#    (constraint clearance (min 1mm))
+#)
+
+(rule "AC_220V_Rule"
+	(condition "A.hasNetclass('AC_220V') || A.hasNetclass('AC_OUT')")
+    (constraint track_width (opt 2.0mm))
+    (constraint clearance (min 1mm))
 )
 
+(rule "ACN_ACL_Spacing_Exception"
+    (condition "(A.NetName == '/ACN' && B.NetName == '/ACL') || (A.NetName == '/ACL' && B.NetName == '/ACN')")
+    (constraint clearance (min 2.5mm))
+)
+
+(rule "PWR_12V_5V_Rule"
+    (condition "A.hasNetclass('PWR_12V_5V')")
+    (constraint track_width (opt 0.5mm))
+    (constraint clearance (min 0.5mm))
+)
+
+(rule "PWR_3V3_Rule"
+    (condition "A.hasNetclass('PWR_3V3')")
+    (constraint track_width (opt 0.5mm))
+    (constraint clearance (min 0.5mm))
+)
+
+(rule "3V3_EN_Spacing_Exception"
+    (condition "(A.NetName == '/EN' && B.NetClass == 'PWR_3V3') || (A.NetClass == 'PWR_3V3' && B.NetName == '/EN')")
+    (constraint clearance (min 0.2mm))
+)
+
+(rule "GND_Rule"
+    (condition "A.hasNetclass('GND')")
+    (constraint track_width (opt 0.2mm))
+    (constraint clearance (min 0.2mm))
+)
+
+(rule "Edge_Clearance_Exception_AC"
+    (condition "A.hasNetclass('AC_OUT')")
+    (constraint edge_clearance (min 0.2mm))
+)
